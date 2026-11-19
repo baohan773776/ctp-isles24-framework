@@ -1,7 +1,7 @@
 ﻿# Analysis code, derived results and frozen models
 
 Code, derived tables, out-of-fold predictions and fitted models accompanying the manuscript
-"A reproducible framework for evaluating the incremental prognostic value of CT perfusion after thrombectomy: feasibility study on the public ISLES'24 dataset and design parameters for a definitive study" (submitted to BMC Medical Informatics and Decision Making). Source: https://github.com/baohan773776/ctp-isles24-framework. Archived release: TODO Zenodo DOI.
+"A reproducible framework for evaluating the incremental prognostic value of CT perfusion after thrombectomy: feasibility study on the public ISLES'24 dataset and design parameters for a definitive study" (submitted to BMC Medical Informatics and Decision Making). Source: https://github.com/baohan773776/ctp-isles24-framework. Archived release: https://doi.org/10.5281/zenodo.24368051.
 
 ## Layout
 | Path | Content |
@@ -45,6 +45,7 @@ Claude (Anthropic) was used to help write analysis code and draft text. ChatGPT 
 
 ## Citation
 See `CITATION.cff`.
+
 
 
 
