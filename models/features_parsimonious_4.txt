@@ -1,0 +1,4 @@
+Age
+NIHSS at admission
+mRS premorbid
+Glucose

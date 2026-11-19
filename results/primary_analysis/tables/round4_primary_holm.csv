@@ -1,0 +1,4 @@
+set,new,reference,role,delta_auc,ci_lo,ci_hi,p_bootstrap,p_holm
+A: full cohort,R1_DWI,R1_clin_LR4,PRIMARY H3: follow-up infarct volume added to admission model,0.0928877005347593,0.0160669769739899,0.1722599958754342,0.019,0.056999999999999995
+H1: full cohort,F_loc,P1_clin_GBM,PRIMARY H1: CTP location features added to clinical GBM,-0.0101604278074867,-0.0439600928937648,0.0251157055789966,0.58,1.0
+H2: LVO population,F_late_P1_E,P1_clin_GBM,PRIMARY H2 (hypothesis-generating): CTP within LVO population,0.0166484118291347,-0.0352834014138362,0.0726121785721565,0.538,1.0

@@ -1,0 +1,13 @@
+variable,n_probable_imputed,pct
+Age,3,2.3
+Glucose,16,12.4
+Leucocytes,49,38.0
+CRP,50,38.8
+INR,53,41.1
+Onset to door_min,64,49.6
+Alert to door_min,118,91.5
+Door to imaging_min,12,9.3
+Door to groin_min,8,6.2
+Door to first series_min,41,31.8
+Door to recanalization_min,45,34.9
+Time of intervention_min,43,33.3

@@ -1,0 +1,3 @@
+new,reference,role,delta_auc,ci_lo,ci_hi,p_bootstrap,delta_auc_pooled,p_delong_pooled
+F_late_P1_E,P1_clin_GBM,primary: added value of CTP to clinical model,0.011069518716577575,-0.03937819865322225,0.06755010364086024,0.687,0.014973262032085821,0.5769408640494968
+F_late_P1_E,E_CTP_all,multimodal vs imaging-only,0.1784491978609627,0.08944310024579627,0.26218465986491385,0.0,0.1903743315508023,3.639165262318664e-05

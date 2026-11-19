@@ -1,0 +1,2 @@
+two_slab_patients,analysable_pairs,header_geometry_usable,patients_with_duplicated_slices_adjacency,duplicated_slices_adjacency_total,patients_with_duplicated_slices_strict,duplicated_slices_strict_total,slices_in_two_slab_patients,ot_slice_dice_median_duplicated_pairs,ot_slice_dice_median_other_matched_pairs
+31,31,no (identity affine; no slice position in NIfTI or JSON),17,17,7,7,188,0.6975,0.0

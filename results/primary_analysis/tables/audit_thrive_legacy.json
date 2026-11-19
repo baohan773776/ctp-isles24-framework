@@ -1,0 +1,77 @@
+{
+  "n_compared": 129,
+  "age_max_abs_diff": 0.0,
+  "thrive_mismatches": 65,
+  "mismatch_examples": [
+    {
+      "subject_id": "sub-stroke0003",
+      "Age": 81.0,
+      "NIHSS at admission": 21.0,
+      "THRIVE": 7,
+      "THRIVE_score": 5
+    },
+    {
+      "subject_id": "sub-stroke0004",
+      "Age": 89.0,
+      "NIHSS at admission": 18.0,
+      "THRIVE": 6,
+      "THRIVE_score": 5
+    },
+    {
+      "subject_id": "sub-stroke0005",
+      "Age": 66.0,
+      "NIHSS at admission": 18.0,
+      "THRIVE": 3,
+      "THRIVE_score": 2
+    },
+    {
+      "subject_id": "sub-stroke0006",
+      "Age": 81.0,
+      "NIHSS at admission": 21.0,
+      "THRIVE": 8,
+      "THRIVE_score": 6
+    },
+    {
+      "subject_id": "sub-stroke0007",
+      "Age": 78.0,
+      "NIHSS at admission": 16.0,
+      "THRIVE": 5,
+      "THRIVE_score": 4
+    },
+    {
+      "subject_id": "sub-stroke0010",
+      "Age": 98.0,
+      "NIHSS at admission": 16.0,
+      "THRIVE": 6,
+      "THRIVE_score": 5
+    },
+    {
+      "subject_id": "sub-stroke0012",
+      "Age": 76.0,
+      "NIHSS at admission": 17.0,
+      "THRIVE": 3,
+      "THRIVE_score": 2
+    },
+    {
+      "subject_id": "sub-stroke0013",
+      "Age": 80.0,
+      "NIHSS at admission": 10.0,
+      "THRIVE": 3,
+      "THRIVE_score": 2
+    },
+    {
+      "subject_id": "sub-stroke0014",
+      "Age": 86.0,
+      "NIHSS at admission": 23.0,
+      "THRIVE": 8,
+      "THRIVE_score": 6
+    },
+    {
+      "subject_id": "sub-stroke0021",
+      "Age": 88.0,
+      "NIHSS at admission": 19.0,
+      "THRIVE": 5,
+      "THRIVE_score": 4
+    }
+  ]
+}

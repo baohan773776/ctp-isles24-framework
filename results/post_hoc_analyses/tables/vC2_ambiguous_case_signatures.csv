@@ -1,0 +1,9 @@
+signature,value_sub_stroke0008,munich_like_median,zurich_like_median,share_munich_like_with_same_value,share_zurich_like_with_same_value,closer_to,interpretation
+S3_ncct_slice_mm,2.0,2.0,4.0,0.9797979797979798,0.1836734693877551,Munich-like,consistency only; no source provides the centre of this subject
+S4_inplane_mm,0.41,0.41,0.355,0.46464646464646464,0.0,Munich-like,consistency only; no source provides the centre of this subject
+S5_ctp_slab_mm,94.0,84.0,108.0,0.050505050505050504,0.02040816326530612,Munich-like,consistency only; no source provides the centre of this subject
+S10_ctp_slices,47.0,42.0,28.0,0.050505050505050504,0.02040816326530612,Munich-like,consistency only; no source provides the centre of this subject
+S8_n_imputed_of_4,1.0,0.0,4.0,0.23863636363636365,0.0,Munich-like,consistency only; no source provides the centre of this subject
+S9_nihss24h_recorded,1.0,1.0,0.0,0.8383838383838383,0.0,Munich-like,consistency only; no source provides the centre of this subject
+S1 storage precision (primary mapping),,,,,,Zurich-like (float storage),consistency only; no source provides the centre of this subject
+S2 subject-ID block,,,,,,Munich-like (ID 8 inside block 1-119),consistency only; no source provides the centre of this subject

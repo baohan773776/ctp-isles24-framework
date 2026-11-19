@@ -1,0 +1,19 @@
+{
+  "n":129,
+  "cvt_ratio_median_of_medians":0.999175114,
+  "cvt_ratio_IQR":[
+    0.9981339702,
+    0.9996082093
+  ],
+  "cvt_ratio_within_5pct":0.9612403101,
+  "cvt_corr_median":0.7682301063,
+  "degenerate_norm_n":3,
+  "tmax_ceiling_ge2_n":88,
+  "lvo_mask_available":85,
+  "ipsi_agrees_with_lvo":0.9647058824,
+  "contra_tmax_median":2.0160994572,
+  "contra_cbf_median":14.3271009301,
+  "contra_cbv_median":2.7863874754,
+  "contra_mtt_median":11.485338621,
+  "mirror_dice_median":0.9536747905
+}

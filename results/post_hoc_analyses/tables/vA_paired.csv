@@ -1,0 +1,11 @@
+analysis,new,reference,role,n,events,delta_auc,ci_lo,ci_hi,p_bootstrap
+Exp A: full cohort (n=129),A_late_rec,A_clin,"PRIMARY (Exp A): CTP added to clinical, consistent nested tuning, late fusion",129,44,0.05417112299465232,-0.006398738010356164,0.12108613343948088,0.08
+Exp A: full cohort (n=129),A_joint_rec,A_clin,"CTP added to clinical, consistent nested tuning, joint model",129,44,0.026417112299465195,-0.058536031506619755,0.11196083658888543,0.525
+Exp A: full cohort (n=129),A_ctp_rec,A_clin,CTP-only vs clinical-only,129,44,-0.016631016042780722,-0.1353619527197149,0.10078951182937014,0.797
+Exp A: full cohort (n=129),A_late_nat,A_clin,native-unit CTP added to clinical (late fusion),129,44,0.02342245989304803,-0.033493822959267304,0.08599600494105131,0.452
+Exp A: full cohort (n=129),A_joint_nat,A_clin,native-unit CTP added to clinical (joint model),129,44,0.017326203208556268,-0.05849258417494201,0.09751961483292174,0.661
+Exp A: full cohort (n=129),A_late_nat,A_late_rec,native vs recovered CTP in the fused model,129,44,-0.03074866310160429,-0.06332452823539422,-0.0007969348659003743,0.042
+Exp A: full cohort (n=129),A_ctp_nat,A_ctp_rec,native vs recovered CTP alone,129,44,-0.06336898395721924,-0.12073304538681492,-0.01028821002579608,0.015
+Exp A: full cohort (n=129),A_clin,canon_P1_locked_GBM,procedure contrast: consistent nested vs locked clinical GBM (NOT a pure selection-bias estimate),129,44,-0.06524064171123001,-0.10053057889822611,-0.032246566791510625,0.0
+Exp A: full cohort (n=129),A_clin,canon_P1_nested_GBM,procedure contrast: consistent nested (EN or GBM) vs GBM-only nested,129,44,-0.02917112299465241,-0.05547699173713369,-0.004012340988404789,0.02
+Exp A: full cohort (n=129),A_late_rec,canon_F_late_P1_E,"procedure contrast: fused model, consistent nested vs primary",129,44,-0.022139037433155262,-0.06677491181657848,0.02262009939378344,0.341

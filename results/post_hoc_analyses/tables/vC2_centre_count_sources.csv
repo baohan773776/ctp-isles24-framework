@@ -1,0 +1,7 @@
+source,training_n,centre_1_munich,centre_2_zurich,subject_level_list,status
+"Riedel et al., arXiv:2408.11142 v1 (20 Aug 2024), section 'Data structure'",150.0,100.0,50.0,no,read from the PDF in this study
+"Riedel et al., arXiv:2408.11142 v2 (6 Jul 2025), section 'Data structure'",149.0,99.0,50.0,no,read from the PDF in this study
+"Riedel et al., Radiol Artif Intell 2026;8(3):e250603, Table 1",149.0,100.0,49.0,no,published Table 1 count (confirmed by the authors); no subject-level list
+"Info sheet clinical_data-description.xlsx, Zenodo record 16813698 (Aug 2025; 12,149 bytes; MD5 c8d806a021614c6bb9f732756f9701d4), downloaded 2026-11-14",,,,no,contains only the clinical variable dictionary (Supplementary Table 1); the per-case centre list described in arXiv v2 is not in this file and may exist only inside the 99 GB train.7z archive (not downloaded)
+"This study, storage-precision signature (primary mapping)",149.0,99.0,50.0,inferred,inferred; matches arXiv v2
+"This study, contiguous subject-ID blocks",149.0,100.0,49.0,inferred,inferred; matches the journal Table 1 count

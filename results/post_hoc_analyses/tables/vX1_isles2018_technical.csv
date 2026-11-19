@@ -1,0 +1,3 @@
+scaling,slabs,patients,technical_failures_slabs,slabs_with_any_nonfinite_feature,feature_completeness_pct,tmax_volume_monotonicity_pct,core_threshold_monotonicity_pct,ipsilateral_side_agrees_with_dwi_pct,mirror_dice_median
+as_distributed,94,63,0,7,95.44359694901647,100.0,100.0,86.17021276595744,0.946111005437782
+s03_harmonised,94,63,0,0,100.0,100.0,100.0,98.93617021276596,0.946111005437782

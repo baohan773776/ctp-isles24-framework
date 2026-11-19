@@ -1,0 +1,23 @@
+﻿cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Code, derived data and frozen models for: A reproducible framework for evaluating the incremental prognostic value of CT perfusion after thrombectomy: feasibility study on the public ISLES'24 dataset and design parameters for a definitive study"
+authors:
+  - family-names: "Nguyen"
+    given-names: "Bao Han"
+    affiliation: "University of Economics Ho Chi Minh City (UEH), 3i Institute"
+  - family-names: "Nguyen"
+    given-names: "Tuan Kiet"
+    affiliation: "University of Economics Ho Chi Minh City (UEH), 3i Institute"
+    orcid: "https://orcid.org/0009-0001-2865-5311"
+  - family-names: "Nguyen"
+    given-names: "Thien Bao"
+    affiliation: "University of Economics Ho Chi Minh City (UEH), 3i Institute"
+    orcid: "https://orcid.org/0000-0001-8341-7319"
+version: 1.0.0
+date-released: "2026-11-19"
+license: MIT
+repository-code: "https://github.com/baohan773776/ctp-isles24-framework"
+doi: "TODO-zenodo-doi"
+
+
+

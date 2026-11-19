@@ -1,0 +1,5 @@
+channel,n,pct_ceiling_reached,scale_ratio_median,scale_ratio_p5,scale_ratio_p95,pct_within_5pct,voxel_mape_median
+CBF,94,100.0,1.0,1.0,1.0,100.0,0.0
+CBV,94,100.0,1.0,1.0,1.0,100.0,0.0
+MTT,94,86.1702,1.0,1.0,1.3895,89.3617,0.0
+Tmax,94,77.6596,1.0,1.0,1.1391,87.234,0.0

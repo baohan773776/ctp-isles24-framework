@@ -1,0 +1,22 @@
+Sex
+Wake-up
+In-House
+Referral
+Atrial fibrillation
+Hypertension
+Diabetes
+Hyperlipidemia
+Anticoagulation
+Lipid lowering drugs
+PAIs
+mRS at admission
+mRS premorbid
+NIHSS at admission
+Age
+Glucose
+Leucocytes
+CRP
+INR
+Onset to door_min
+Alert to door_min
+Door to imaging_min

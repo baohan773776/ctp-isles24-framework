@@ -1,0 +1,6 @@
+model,train_auc,test_auc,gap
+B_CBV,0.7407,0.642,0.0987
+D_Tmax,0.7463,0.6346,0.1117
+E_CTP_all,0.7932,0.6111,0.1821
+P1_clin_GBM,1.0,0.7649,0.2351
+T_thresholds,0.686,0.5927,0.0933

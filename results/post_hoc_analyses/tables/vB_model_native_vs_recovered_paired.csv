@@ -1,0 +1,13 @@
+analysis,new,reference,role,n,events,delta_auc,ci_lo,ci_hi,p_bootstrap
+all analysed (n=129),F_late_P1_Enat,F_late_P1_E,clinical + native CTP vs clinical + recovered CTP (primary),129,44,0.003262032085561417,-0.011231501231749198,0.018316000832292855,0.68
+all analysed (n=129),E_native,E_CTP_all,native vs recovered CTP alone,129,44,0.036417112299465315,-0.009151575274139042,0.08520215981129302,0.136
+all analysed (n=129),F_late_P1_Enat,P1_clin_GBM,native CTP added to clinical,129,44,0.014331550802138993,-0.034491421438572874,0.07263561177580828,0.612
+all analysed (n=129),F_late_P1_E,P1_clin_GBM,recovered CTP added to clinical (primary H0),129,44,0.011069518716577575,-0.03937819865322225,0.06755010364086024,0.687
+Tmax recovery certain,F_late_P1_Enat,F_late_P1_E,clinical + native CTP vs clinical + recovered CTP (primary),85,34,0.0013840830449827202,-0.016123193473193444,0.02005011792452813,0.898
+Tmax recovery certain,E_native,E_CTP_all,native vs recovered CTP alone,85,34,0.026182237600922642,-0.030783333333333225,0.09140672169811309,0.417
+Tmax recovery certain,F_late_P1_Enat,P1_clin_GBM,native CTP added to clinical,85,34,0.0041522491349480495,-0.03855074829931984,0.0455787755102041,0.858
+Tmax recovery certain,F_late_P1_E,P1_clin_GBM,recovered CTP added to clinical (primary H0),85,34,0.0027681660899653293,-0.03783865164703875,0.04440994571980176,0.922
+Tmax recovery uncertain,F_late_P1_Enat,F_late_P1_E,clinical + native CTP vs clinical + recovered CTP (primary),44,10,0.005882352941176561,-0.02920466511375603,0.04514276960784318,0.714
+Tmax recovery uncertain,E_native,E_CTP_all,native vs recovered CTP alone,44,10,0.018823529411764794,-0.03250894701889022,0.07176883384932925,0.479
+Tmax recovery uncertain,F_late_P1_Enat,P1_clin_GBM,native CTP added to clinical,44,10,0.03529411764705881,-0.14235294117647057,0.2647682014954742,0.804
+Tmax recovery uncertain,F_late_P1_E,P1_clin_GBM,recovered CTP added to clinical (primary H0),44,10,0.02941176470588225,-0.1640487938596493,0.26589046653144,0.859

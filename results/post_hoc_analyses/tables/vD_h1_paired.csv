@@ -1,0 +1,9 @@
+analysis,new,reference,role,n,events,delta_auc,ci_lo,ci_hi,p_bootstrap
+full cohort,F_loc_ncct,P1_clin_GBM,H1 at admission time: NCCT-registered location added to P1,129,44,-0.0014438502673796982,-0.03702732932119723,0.03818044064821283,0.931
+full cohort,F_loc_dwi,P1_clin_GBM,H1 as canonical: DWI-registered location added to P1 (re-run),129,44,-0.011069518716577686,-0.041968583382909264,0.020430481283422192,0.492
+full cohort,F_loc_ncct,F_loc_dwi,"NCCT vs DWI registration, fused model",129,44,0.009625668449197988,-0.002230354669983023,0.023652958152958082,0.118
+full cohort,Loc_CTP_ncct,Loc_CTP_dwi,"NCCT vs DWI registration, location only",129,44,-0.00021390374331553552,-0.04945550519307504,0.047303148822391665,0.999
+NCCT registration Dice >= 0.80,F_loc_ncct,P1_clin_GBM,H1 at admission time: NCCT-registered location added to P1,124,43,-0.012919896640826822,-0.04379422171696159,0.018791423404805094,0.412
+NCCT registration Dice >= 0.80,F_loc_dwi,P1_clin_GBM,H1 as canonical: DWI-registered location added to P1 (re-run),124,43,-0.017571059431524594,-0.04873292682926833,0.011824810606060481,0.234
+NCCT registration Dice >= 0.80,F_loc_ncct,F_loc_dwi,"NCCT vs DWI registration, fused model",124,43,0.0046511627906977715,-0.005999881545467106,0.018403132992327292,0.484
+NCCT registration Dice >= 0.80,Loc_CTP_ncct,Loc_CTP_dwi,"NCCT vs DWI registration, location only",124,43,-0.0112546655182314,-0.05355484940591332,0.028665902454051144,0.58

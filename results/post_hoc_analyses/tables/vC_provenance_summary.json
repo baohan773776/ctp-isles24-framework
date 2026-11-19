@@ -1,0 +1,62 @@
+{
+  "n_subjects_release": 149,
+  "canonical_counts": {
+    "Munich (inferred)": 99,
+    "Zurich (inferred)": 50
+  },
+  "S1_counts": {
+    "Munich": 99,
+    "Zurich": 50
+  },
+  "S2_counts": {
+    "Munich": 100,
+    "Zurich": 49
+  },
+  "certainty_counts": {
+    "CONCORDANT: storage, ID block and slice thickness agree": 139,
+    "PROBABLE: storage and ID block agree; slice thickness atypical for the cluster": 9,
+    "AMBIGUOUS: storage signature and ID block disagree": 1
+  },
+  "ambiguous_ids": [
+    "sub-stroke0008"
+  ],
+  "ambiguous_in_cohort_129": [
+    "sub-stroke0008"
+  ],
+  "ids_absent_in_block_133_182": [
+    160
+  ],
+  "ids_absent_in_1_119": [
+    18,
+    23,
+    24,
+    29,
+    31,
+    32,
+    34,
+    35,
+    39,
+    41,
+    42,
+    44,
+    46,
+    50,
+    51,
+    56,
+    58,
+    59,
+    60,
+    61,
+    63,
+    64,
+    65,
+    67,
+    69,
+    72
+  ],
+  "ids_present_120_132": [],
+  "probable_count_cohort": {
+    "Munich (inferred)": 88,
+    "Zurich (inferred)": 41
+  }
+}

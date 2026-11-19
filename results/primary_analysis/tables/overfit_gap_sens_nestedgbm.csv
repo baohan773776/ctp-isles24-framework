@@ -1,0 +1,4 @@
+model,train_auc,test_auc,gap
+E_CTP_all,0.7623,0.6002,0.1622
+P1_clin_GBM,1.0,0.7602,0.2398
+P1_nested_GBM,0.9828,0.7453,0.2375

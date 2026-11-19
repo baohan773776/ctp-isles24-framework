@@ -1,0 +1,6 @@
+model,train_auc,test_auc,gap
+E_CTP_all,0.767,0.6063,0.1607
+P1_clin_GBM,1.0,0.7602,0.2398
+P1_missind,1.0,0.7695,0.2305
+P1_missonly,0.6527,0.5688,0.0839
+P1_no_alert2door,1.0,0.7586,0.2414

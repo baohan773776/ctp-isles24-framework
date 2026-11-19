@@ -1,0 +1,6 @@
+comparison,n_observed,events_observed,delta_observed,se_boot,n_for_delta_0.03,events_for_delta_0.03,n_for_delta_0.05,events_for_delta_0.05,n_for_delta_0.08,events_for_delta_0.08,n_for_delta_observed,events_for_delta_observed
+Pre-treatment CTP added to clinical GBM (full cohort),129,44,0.011069518716577575,0.027467777131106607,848,290,306,105,120,41,6228,2125
+Follow-up infarct volume added to admission model (full cohort),129,44,0.09288770053475937,0.039985937191469374,1797,613,647,221,253,87,188,65
+Follow-up infarct volume added to clinical GBM (full cohort),129,44,0.05475935828876999,0.027535666269699235,853,291,307,105,120,41,256,88
+24-h NIHSS added to admission model (Munich),88,38,0.08421052631578951,0.04772026179142871,1746,754,629,272,246,107,222,96
+24-h NIHSS + infarct volume vs admission (Munich),88,38,0.10905263157894729,0.05121315335230411,2011,869,724,313,283,123,153,67

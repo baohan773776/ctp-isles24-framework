@@ -1,0 +1,13 @@
+signature,cluster,n,mean,median,p05,p95
+S3_ncct_slice_mm,Munich-like (storage and ID agree),99,1.9979797979797982,2.0,2.0,2.0
+S3_ncct_slice_mm,Zurich-like (storage and ID agree),49,3.63265306122449,4.0,2.0,4.0
+S4_inplane_mm,Munich-like (storage and ID agree),99,0.42997979797979796,0.41,0.38480000000000003,0.49879999999999997
+S4_inplane_mm,Zurich-like (storage and ID agree),49,0.3701632653061225,0.355,0.3122,0.46299999999999986
+S5_ctp_slab_mm,Munich-like (storage and ID agree),99,86.01212121212122,84.0,78.0,104.19999999999999
+S5_ctp_slab_mm,Zurich-like (storage and ID agree),49,109.26530612244898,108.0,96.0,122.39999999999998
+S10_ctp_slices,Munich-like (storage and ID agree),99,43.7979797979798,42.0,38.5,52.099999999999994
+S10_ctp_slices,Zurich-like (storage and ID agree),49,32.10204081632653,28.0,25.4,50.599999999999994
+S8_n_imputed_of_4,Munich-like (storage and ID agree),88,0.625,0.0,0.0,3.0
+S8_n_imputed_of_4,Zurich-like (storage and ID agree),40,4.0,4.0,4.0,4.0
+S9_nihss24h_recorded,Munich-like (storage and ID agree),99,0.8383838383838383,1.0,0.0,1.0
+S9_nihss24h_recorded,Zurich-like (storage and ID agree),49,0.0,0.0,0.0,0.0

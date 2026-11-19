@@ -1,0 +1,703 @@
+{
+  "files_checked": 73,
+  "compile_errors": {},
+  "compile_errors_historical_copy": {},
+  "historical_copy_files": 35,
+  "imports": {
+    "third_party": {
+      "SimpleITK": [
+        "s25_atlas_location.py"
+      ],
+      "docx": [
+        "a02_ledger.py",
+        "a03_claims.py",
+        "a05_cover_letter_revised.py",
+        "a07_verify.py",
+        "s11_manuscript.py",
+        "s11_manuscript_before_port_2026-11-12.py",
+        "s11_manuscript_v3_full.py",
+        "s12_supplements.py",
+        "s30_package.py",
+        "w03_manuscript.py",
+        "w05_number_check.py",
+        "w09_final_manuscript.py",
+        "w11_final_package.py",
+        "w12_cover_letter.py",
+        "w13_targeted_repair.py",
+        "w14_repair_documents.py",
+        "w15_final_qa_report.py"
+      ],
+      "joblib": [
+        "apply_frozen_models.py",
+        "vA_nested_consistent.py",
+        "vB_native_verification.py",
+        "vE_bootstrap_refit.py",
+        "vX1_isles2018_benchmark.py",
+        "vX1b_isles2018_slab_overlap.py",
+        "w08_freeze_models.py"
+      ],
+      "matplotlib": [
+        "s09_figures.py",
+        "s18_subgroups.py",
+        "s22_new_figures.py",
+        "s25_atlas_location.py",
+        "s27_round4_summary.py",
+        "s29_framework_figure.py",
+        "w02_collect.py",
+        "w10_additional_file5.py"
+      ],
+      "nibabel": [
+        "s03_isles2018_validation.py",
+        "s13_fetch_native.py",
+        "s25_atlas_location.py",
+        "vX1_isles2018_benchmark.py",
+        "vX3_jhu_brain_extraction.py"
+      ],
+      "nilearn": [
+        "s25_atlas_location.py"
+      ],
+      "numpy": [
+        "a02_ledger.py",
+        "a03_claims.py",
+        "apply_frozen_models.py",
+        "qa_code_checks.py",
+        "s01_build_cohort.py",
+        "s02_ctp_features.py",
+        "s03_isles2018_validation.py",
+        "s04_models_cv.py",
+        "s05_evaluate.py",
+        "s06_sensitivity.py",
+        "s07_interpret.py",
+        "s08_tables.py",
+        "s09_figures.py",
+        "s10_ordinal.py",
+        "s11_manuscript.py",
+        "s11_manuscript_before_port_2026-11-12.py",
+        "s11_manuscript_v3_full.py",
+        "s13_fetch_native.py",
+        "s14_extra_models.py",
+        "s15_native_features.py",
+        "s17_precision.py",
+        "s18_subgroups.py",
+        "s19_site_inference.py",
+        "s20_geographic.py",
+        "s21_site_effects.py",
+        "s22_new_figures.py",
+        "s23_fetch_dwi.py",
+        "s24_timeline.py",
+        "s25_atlas_location.py",
+        "s26_location_lvo_models.py",
+        "s27_round4_summary.py",
+        "s28_design_parameters.py",
+        "stats_utils.py",
+        "vA_nested_consistent.py",
+        "vA_within_centre.py",
+        "vB_native_verification.py",
+        "vC2_centre_reconciliation.py",
+        "vC_provenance.py",
+        "vD_fetch_ncct.py",
+        "vD_models.py",
+        "vD_registration.py",
+        "vE_bootstrap_refit.py",
+        "vX1_isles2018_benchmark.py",
+        "vX1b_isles2018_slab_overlap.py",
+        "vX3_jhu_brain_extraction.py",
+        "v_common.py",
+        "w02_collect.py",
+        "w08_freeze_models.py",
+        "w10_additional_file5.py"
+      ],
+      "openpyxl": [
+        "a07_verify.py",
+        "w10_additional_file5.py",
+        "w14_repair_documents.py"
+      ],
+      "pandas": [
+        "a02_ledger.py",
+        "a03_claims.py",
+        "apply_frozen_models.py",
+        "qa_code_checks.py",
+        "s01_build_cohort.py",
+        "s02_ctp_features.py",
+        "s03_isles2018_validation.py",
+        "s04_models_cv.py",
+        "s05_evaluate.py",
+        "s06_sensitivity.py",
+        "s07_interpret.py",
+        "s08_tables.py",
+        "s09_figures.py",
+        "s10_ordinal.py",
+        "s11_manuscript.py",
+        "s11_manuscript_before_port_2026-11-12.py",
+        "s11_manuscript_v3_full.py",
+        "s12_supplements.py",
+        "s14_extra_models.py",
+        "s15_native_features.py",
+        "s16_combine.py",
+        "s17_precision.py",
+        "s18_subgroups.py",
+        "s19_site_inference.py",
+        "s20_geographic.py",
+        "s21_site_effects.py",
+        "s22_new_figures.py",
+        "s24_timeline.py",
+        "s25_atlas_location.py",
+        "s26_location_lvo_models.py",
+        "s27_round4_summary.py",
+        "s28_design_parameters.py",
+        "s29_framework_figure.py",
+        "s30_package.py",
+        "vA_nested_consistent.py",
+        "vA_within_centre.py",
+        "vB_native_verification.py",
+        "vC2_centre_reconciliation.py",
+        "vC_provenance.py",
+        "vD_fetch_ncct.py",
+        "vD_models.py",
+        "vD_registration.py",
+        "vE_bootstrap_refit.py",
+        "vX1_isles2018_benchmark.py",
+        "vX1b_isles2018_slab_overlap.py",
+        "vX3_jhu_brain_extraction.py",
+        "v_common.py",
+        "w02_collect.py",
+        "w04_claims_and_log.py",
+        "w05_number_check.py",
+        "w06_package.py",
+        "w10_additional_file5.py",
+        "w13_targeted_repair.py",
+        "w14_repair_documents.py",
+        "w15_final_qa_report.py"
+      ],
+      "pyarrow": [
+        "s13_fetch_native.py",
+        "s23_fetch_dwi.py",
+        "vD_fetch_ncct.py"
+      ],
+      "requests": [
+        "httpfile.py"
+      ],
+      "scipy": [
+        "a02_ledger.py",
+        "s02_ctp_features.py",
+        "s03_isles2018_validation.py",
+        "s07_interpret.py",
+        "s08_tables.py",
+        "s10_ordinal.py",
+        "s15_native_features.py",
+        "s18_subgroups.py",
+        "s21_site_effects.py",
+        "stats_utils.py",
+        "vB_native_verification.py",
+        "vD_models.py",
+        "vD_registration.py",
+        "vX1_isles2018_benchmark.py"
+      ],
+      "shap": [
+        "s07_interpret.py"
+      ],
+      "sklearn": [
+        "apply_frozen_models.py",
+        "qa_code_checks.py",
+        "s04_models_cv.py",
+        "s07_interpret.py",
+        "s08_tables.py",
+        "s09_figures.py",
+        "s14_extra_models.py",
+        "stats_utils.py",
+        "vA_nested_consistent.py",
+        "vE_bootstrap_refit.py",
+        "w08_freeze_models.py"
+      ],
+      "statsmodels": [
+        "a02_ledger.py",
+        "s09_figures.py",
+        "s10_ordinal.py",
+        "s18_subgroups.py",
+        "stats_utils.py"
+      ]
+    },
+    "undeclared_in_requirements": [],
+    "not_installed": [],
+    "missing_local_modules": {}
+  },
+  "hardcoded_paths": [],
+  "cohort": {
+    "n": 129,
+    "poor": 44,
+    "poor_definition_ok": true
+  },
+  "oof_schema": [
+    {
+      "run": "primary/oof_long.csv",
+      "rows": 9675,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_5fold.csv",
+      "rows": 9675,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_5fold.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_all.csv",
+      "rows": 21285,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_ext_location.csv",
+      "rows": 1935,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_ext_location.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_ext_native.csv",
+      "rows": 1935,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_ext_native.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_ext_ref.csv",
+      "rows": 1290,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_ext_ref.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_ext_timeline.csv",
+      "rows": 1290,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_ext_timeline.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_loc_dice80.csv",
+      "rows": 3430,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 98,
+      "manifest": "fold_manifest_loc_dice80.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_lvo.csv",
+      "rows": 4445,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 127,
+      "manifest": "fold_manifest_lvo.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_munich.csv",
+      "rows": 7040,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 88,
+      "manifest": "fold_manifest_munich.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_munich_timeline.csv",
+      "rows": 3520,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 88,
+      "manifest": "fold_manifest_munich_timeline.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_munich_timeline_cc.csv",
+      "rows": 2920,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 73,
+      "manifest": "fold_manifest_munich_timeline_cc.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_sens_features.csv",
+      "rows": 14190,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_sens_features.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_sens_missing.csv",
+      "rows": 4515,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_sens_missing.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_sens_nestedgbm.csv",
+      "rows": 3225,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_sens_nestedgbm.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_sens_scalefree.csv",
+      "rows": 1935,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_sens_scalefree.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "primary/oof_long_sens_tmaxcertain.csv",
+      "rows": 2550,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 85,
+      "manifest": "fold_manifest_sens_tmaxcertain.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "post_hoc/oof_long_vA.csv",
+      "rows": 4515,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_vA.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "post_hoc/oof_long_vD_location.csv",
+      "rows": 3225,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 129,
+      "manifest": "fold_manifest_vD_location.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    },
+    {
+      "run": "post_hoc/oof_long_vD_location_dice80.csv",
+      "rows": 3100,
+      "columns_ok": true,
+      "y_binary": true,
+      "p_in_0_1": true,
+      "unique_subject_seed_model": true,
+      "seeds": [
+        42,
+        100,
+        777,
+        999,
+        2024
+      ],
+      "y_constant_per_subject": true,
+      "y_equals_cohort_poor": true,
+      "n_subjects": 124,
+      "manifest": "fold_manifest_vD_location_dice80.csv",
+      "fold_matches_manifest": true,
+      "each_subject_once_per_seed_in_manifest": true
+    }
+  ],
+  "reproduction": {
+    "primary P1_clin_GBM": {
+      "recomputed": 0.7629,
+      "table": 0.7629
+    },
+    "primary F_late_P1_E": {
+      "recomputed": 0.774,
+      "table": 0.774
+    },
+    "primary E_CTP_all": {
+      "recomputed": 0.5955,
+      "table": 0.5955
+    },
+    "primary dAUC F_late_P1_E - P1": {
+      "recomputed": 0.0111
+    },
+    "fully nested A_clin": {
+      "recomputed": 0.6976,
+      "table": 0.6976
+    },
+    "fully nested A_late_rec": {
+      "recomputed": 0.7518,
+      "table": 0.7518
+    },
+    "fully nested dAUC A_late_rec - A_clin": {
+      "recomputed": 0.0542
+    },
+    "ISLES 2018 de-duplicated Dice (mean of patients)": {
+      "recomputed": 0.2056,
+      "n": 63
+    },
+    "ISLES 2018 de-duplicated sensitivity": {
+      "recomputed": 0.152
+    }
+  },
+  "smoke_tests": {
+    "auc_fast_equals_sklearn": true,
+    "boot_indices_both_classes": true,
+    "n_ctp_features": 53,
+    "n_clinical": 22,
+    "late_fusion_rule_0.5_0.5_holds": true,
+    "fully_nested_fusion_rule_holds": true,
+    "fully_nested_uses_primary_folds": true,
+    "inner_selection_one_choice_per_fold_model": true,
+    "inner_selection_rows": 250
+  },
+  "canonical_outputs": {
+    "identical": 246,
+    "differing_or_missing": 0
+  },
+  "validity_writes_to_canonical_folders": []
+}

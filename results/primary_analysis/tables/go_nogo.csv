@@ -1,0 +1,10 @@
+Direction,Estimate (95% CI),Proposed decision for a definitive study
+"Pre-treatment CTP features (relative, native units)",ΔAUC +0.011 (-0.039 to +0.068); P(ΔAUC > 0.05) = 0.07,No-go for general post-thrombectomy prognosis; a definitive test needs ≈306 patients
+Classical CTP thresholds and absolute volumes (mL),"AUC 0.55 and 0.44; volume increment -0.023 (-0.050 to +0.004), equivalence within ±0.05 shown",No-go
+Location of hypoperfusion (atlas),ΔAUC -0.010 (-0.044 to +0.025),No-go
+CTP in severe strokes (NIHSS ≥ 10),ΔAUC +0.040 (-0.015 to +0.111); interaction P = 0.007 (exploratory),Conditional: test only as a prespecified subgroup in an external cohort
+CBV / collateral signal,"Best single channel, AUC 0.64","Conditional: candidate collateral marker, not a stand-alone prognostic model"
+24-h NIHSS,ΔAUC +0.084 (-0.006 to +0.181) (Munich),Go: collect in all centres
+Follow-up DWI infarct volume,ΔAUC +0.093 (+0.016 to +0.172); Holm P = 0.057,Go: primary candidate for an updated (post-treatment) model
+Follow-up infarct location,ΔAUC +0.036 (-0.005 to +0.079); not robust to registration quality,Conditional: requires non-linear registration and larger n
+Pooled ISLES'24 without centre labels,Outcome rate 43% vs 15%; release imputation ≥98% of laboratory values in one centre,Required: centre-aware evaluation and complete laboratory data

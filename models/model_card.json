@@ -1,0 +1,42 @@
+{
+  "created": "2026-11-14",
+  "training_data": "ISLES'24 training set, patients with 90-day mRS (n = 129, 44 with mRS 3-6); CC BY-NC-SA 4.0",
+  "outcome": "P(mRS 3-6 at 90 days)",
+  "intended_use": "research only: external validation of the feasibility estimates on an independent cohort; not for clinical decision-making",
+  "input_requirements": {
+    "clinical": "22 pre-procedural variables in physical units, column names as in features_clinical_22.txt (missing values allowed; median imputation fitted on the training cohort is inside each pipeline)",
+    "ctp": "53 CTP features computed with s02_ctp_features.features_from_maps on CBF/CBV/MTT/Tmax maps in physical units, clipped to CBF 100, CBV 10, MTT 30, Tmax 30 (same grid handling as the paper)"
+  },
+  "fusion_rule": "p = 0.5 * p_clinical_gbm + 0.5 * p_ctp_elastic_net",
+  "ctp_elastic_net_params": {
+    "C": 0.1,
+    "l1_ratio": 0.2
+  },
+  "cross_validated_performance_reported_in_paper": {
+    "clinical_gbm_auc": "0.763 (95% CI 0.673-0.841); calibration slope 0.58 (overconfident)",
+    "fusion_auc": "0.774 (95% CI 0.690-0.850); delta vs clinical +0.011 (-0.039 to +0.068)",
+    "parsimonious_logistic_auc": "0.681 (95% CI 0.572-0.778)"
+  },
+  "apparent_auc_in_sample_NOT_a_performance_estimate": {
+    "clinical_gbm": 1.0,
+    "ctp_elastic_net": 0.775,
+    "fusion": 1.0,
+    "parsimonious_logistic": 0.734
+  },
+  "warnings": [
+    "The clinical GBM is overconfident (cross-validated calibration slope 0.58); recalibrate before any use.",
+    "Absolute CTP thresholds are not unit-transportable: on ISLES 2018 the maps had to be rescaled first.",
+    "Trained on 129 patients from two inferred centres; transportability is untested."
+  ],
+  "software": {
+    "python": "3.10.11",
+    "scikit-learn": "1.7.2",
+    "numpy": "2.2.6",
+    "joblib": "1.6.0"
+  },
+  "sha256": {
+    "clinical_gbm_5seed.joblib": "15017acfd6d270c619f867889fc84b3e004109d11d3e051bfaab2957683ae4ce",
+    "ctp_elastic_net.joblib": "b83b6315659c5178936288839fffdf5f8778e9bc81485d67bd9e3a5201ba3376",
+    "parsimonious_logistic.joblib": "37f67a51e6c6a5f891dc78caa8bde51ff737edd1cefadc05e571a274c242ed46"
+  }
+}

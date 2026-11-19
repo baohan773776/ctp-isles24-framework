@@ -1,0 +1,11 @@
+set,new,reference,role,delta_auc,ci_lo,ci_hi,p_bootstrap
+H1: full cohort,F_loc,P1_clin_GBM,PRIMARY H1: CTP location features added to clinical GBM,-0.010160427807486716,-0.043960092893764804,0.02511570557899664,0.58
+H1: full cohort,R1_Loc_CTP,R1_clin_LR4,CTP location features in a joint model,-0.01219251336898386,-0.05511081064839866,0.03428532052551658,0.593
+H1: full cohort,Loc_CTP,E_CTP_all,location vs volumetric/relative CTP features,-0.06048128342245973,-0.1664204545454545,0.039382984520173074,0.234
+H1: full cohort,Loc_CTP,V_volumes,location vs absolute volumes,0.09647058823529431,0.013326569006140316,0.18008095298088325,0.016
+H1: full cohort,R1_DWI_Loc,R1_DWI,final-infarct location added to infarct volume,0.036310160427807436,-0.005232909683456538,0.07877548568334106,0.078
+H1: registration Dice >= 0.80,F_loc,P1_clin_GBM,H1 sensitivity: Dice >= 0.80,-0.00731824747231602,-0.02914355941240125,0.015591521836007143,0.548
+H1: registration Dice >= 0.80,R1_DWI_Loc,R1_DWI,H1b sensitivity: Dice >= 0.80,0.005296100144439042,-0.05994323240971357,0.06838778409090912,0.888
+H2: LVO population,F_late_P1_E,P1_clin_GBM,PRIMARY H2 (hypothesis-generating): CTP within LVO population,0.01664841182913479,-0.03528340141383627,0.07261217857215659,0.538
+H2: LVO population,F_late_R1_E,R1_clin_LR4,"CTP within LVO population, parsimonious reference",0.02743702081051469,-0.02945156858927968,0.0896943212067434,0.361
+H2: LVO population,F_loc,P1_clin_GBM,CTP location within LVO population,-0.011171960569550943,-0.04369065473759765,0.017933395948023498,0.459

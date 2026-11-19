@@ -1,0 +1,111 @@
+analysis,metric,n_patients,n_slabs,estimate,ci_lo,ci_hi
+as_distributed: all patients | slab_summed (original),dice_mean,63,94,0.002822949377057856,0.001751599787844396,0.004109084342702992
+as_distributed: all patients | slab_summed (original),dice_median,63,94,0.0006159531875577456,0.0,0.0015897146592754416
+as_distributed: all patients | slab_summed (original),sensitivity_mean,63,94,0.0014246036275629152,0.0008824743970020008,0.002074657887462487
+as_distributed: all patients | slab_summed (original),precision_mean,63,94,0.34121881008503807,0.25537968546987466,0.4286255251900966
+as_distributed: all patients | slab_summed (original),vol_bias_ml,63,94,-47.39736910057068,-60.54568845790907,-35.1797935007822
+as_distributed: all patients | slab_summed (original),vol_abs_err_ml_median,63,94,27.992752197265627,18.519583770751954,40.144880204200746
+as_distributed: all patients | slab_summed (original),spearman_core_vs_dwi,63,94,0.402251672519297,0.1489947083889729,0.6065509770998254
+as_distributed: all patients | slab_summed (original),ccc_core_vs_dwi_ml,63,94,0.003663638762721142,0.0007457281251574959,0.008432983040208713
+as_distributed: all patients | slab_summed (original),dwi_core_covered_by_tmax6_median,63,94,0.7748882524493919,0.7442508710801393,0.8019945078768608
+as_distributed: all patients | slab_summed (original),bland_altman_loa_ml,63,94,-47.39736910057068,-150.3691537167068,55.57441551556543
+s03_harmonised: all patients | slab_summed (original),dice_mean,63,94,0.20921845726886146,0.18096512365538747,0.23728320786225057
+s03_harmonised: all patients | slab_summed (original),dice_median,63,94,0.20531500952065568,0.17778418095375306,0.2391122596336551
+s03_harmonised: all patients | slab_summed (original),sensitivity_mean,63,94,0.15372213874649557,0.13092547277864966,0.17710215734548446
+s03_harmonised: all patients | slab_summed (original),precision_mean,63,94,0.45935891957082264,0.3972695456847781,0.5174603307628944
+s03_harmonised: all patients | slab_summed (original),vol_bias_ml,63,94,-33.39794575492163,-43.794950918718754,-23.45324953786002
+s03_harmonised: all patients | slab_summed (original),vol_abs_err_ml_median,63,94,19.782688556671143,11.213005851745606,25.63793969154358
+s03_harmonised: all patients | slab_summed (original),spearman_core_vs_dwi,63,94,0.6190476190476191,0.4026366647670131,0.7619040210215264
+s03_harmonised: all patients | slab_summed (original),ccc_core_vs_dwi_ml,63,94,0.2950823245168316,0.1994887294344143,0.3751952543201835
+s03_harmonised: all patients | slab_summed (original),dwi_core_covered_by_tmax6_median,63,94,0.6277260063406668,0.5746343923348461,0.673094867807154
+s03_harmonised: all patients | slab_summed (original),bland_altman_loa_ml,63,94,-33.39794575492163,-115.76056269566331,48.96467118582006
+as_distributed: all patients | dedup_adjacency_keepA (primary),dice_mean,63,94,0.0028781565719123202,0.0017429962043243748,0.004217422882027757
+as_distributed: all patients | dedup_adjacency_keepA (primary),dice_median,63,94,0.0006141563027790573,0.0,0.0013413816230717639
+as_distributed: all patients | dedup_adjacency_keepA (primary),sensitivity_mean,63,94,0.0014531985458995397,0.0008788152848773019,0.0021313958711819702
+as_distributed: all patients | dedup_adjacency_keepA (primary),precision_mean,63,94,0.3254807105152181,0.23932225632575924,0.4119444015703177
+as_distributed: all patients | dedup_adjacency_keepA (primary),vol_bias_ml,63,94,-44.63584660365089,-57.365716972958836,-32.58117048197285
+as_distributed: all patients | dedup_adjacency_keepA (primary),vol_abs_err_ml_median,63,94,23.966426773071294,17.161352162361148,40.144880204200746
+as_distributed: all patients | dedup_adjacency_keepA (primary),spearman_core_vs_dwi,63,94,0.3898205538408413,0.13840253908978675,0.607702721389538
+as_distributed: all patients | dedup_adjacency_keepA (primary),ccc_core_vs_dwi_ml,63,94,0.0039720720908523275,0.0008407961536088393,0.009036639696488099
+as_distributed: all patients | dedup_adjacency_keepA (primary),dwi_core_covered_by_tmax6_median,63,94,0.7666882696046662,0.7442922374429224,0.8019945078768608
+as_distributed: all patients | dedup_adjacency_keepA (primary),bland_altman_loa_ml,63,94,-44.63584660365089,-145.57209406717965,56.300400859877854
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),dice_mean,63,94,0.205598461728865,0.17864585534484997,0.23398092224602676
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),dice_median,63,94,0.20501335170988028,0.18231225296442688,0.2391122596336551
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),sensitivity_mean,63,94,0.15197952177895832,0.13011568370439092,0.1746583389601302
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),precision_mean,63,94,0.4519932452704594,0.39020863036153114,0.5096189696174344
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),vol_bias_ml,63,94,-31.600815932796113,-41.75048573251036,-22.031852465924192
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),vol_abs_err_ml_median,63,94,16.731279067993164,10.752029071807861,25.62520325660705
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),spearman_core_vs_dwi,63,94,0.6138152841781874,0.40533241190345737,0.7524118688786517
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),ccc_core_vs_dwi_ml,63,94,0.2961191404011219,0.2007266830215311,0.3749091669896587
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),dwi_core_covered_by_tmax6_median,63,94,0.6277260063406668,0.5746343923348461,0.673094867807154
+s03_harmonised: all patients | dedup_adjacency_keepA (primary),bland_altman_loa_ml,63,94,-31.600815932796113,-112.65069584077922,49.449063975187
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),dice_mean,16,18,0.22840938383071277,0.1693830936024276,0.2865755147290614
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),dice_median,16,18,0.2563036800937751,0.14540956569543706,0.3061462277891057
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),sensitivity_mean,16,18,0.16115798736346074,0.11721491713404049,0.20586653644878541
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),precision_mean,16,18,0.4816980417725274,0.3646970310945162,0.595770156368762
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),vol_bias_ml,16,18,-48.937103363275526,-79.21475885448454,-24.190466505451496
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),vol_abs_err_ml_median,16,18,30.948780696392056,12.698931842803955,58.550296299862566
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),spearman_core_vs_dwi,16,18,0.7088235294117646,0.238799123647816,0.9369416572260885
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),ccc_core_vs_dwi_ml,16,18,0.2566527944103075,0.1596921668858636,0.35980716445512606
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),dwi_core_covered_by_tmax6_median,16,18,0.5546131177212538,0.479745203528782,0.7215215215215215
+s03_harmonised: protocol matrix256_dz10.0 | dedup_adjacency_keepA (primary),bland_altman_loa_ml,16,18,-48.937103363275526,-161.1204692554682,63.24626252891714
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),dice_mean,25,46,0.2112046623011187,0.1745728517928597,0.2514158128781069
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),dice_median,25,46,0.18536162841056736,0.1515625,0.24461385482267153
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),sensitivity_mean,25,46,0.1595428263690122,0.12700965362830183,0.19548892044180874
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),precision_mean,25,46,0.48703317369036725,0.3744693484099951,0.5899992642122037
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),vol_bias_ml,25,46,-34.76094691936493,-51.91026334414863,-18.796070890319836
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),vol_abs_err_ml_median,25,46,16.731279067993164,8.23257421875,48.44157486915589
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),spearman_core_vs_dwi,25,46,0.7046153846153845,0.37676684022324686,0.882461004001063
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),ccc_core_vs_dwi_ml,25,46,0.28539250724158033,0.09782043671646985,0.4217206064073961
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),dwi_core_covered_by_tmax6_median,25,46,0.6435735512630015,0.521168362323597,0.7276946879834967
+s03_harmonised: protocol matrix256_dz12.0 | dedup_adjacency_keepA (primary),bland_altman_loa_ml,25,46,-34.76094691936493,-115.27848709760733,45.75659325887745
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),dice_mean,13,17,0.19488756831737325,0.1301266334600677,0.264117840292999
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),dice_median,13,17,0.19061626709810267,0.0939387627577588,0.2730102267674522
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),sensitivity_mean,13,17,0.1454379153785132,0.09284013474784174,0.20102245479392558
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),precision_mean,13,17,0.40090980913148455,0.28382547574550243,0.5270725157410172
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),vol_bias_ml,13,17,-15.366252300225767,-23.249375657146715,-8.323376690421656
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),vol_abs_err_ml_median,13,17,10.737762489795685,2.4652456426620493,25.62520325660705
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),spearman_core_vs_dwi,13,17,0.45604395604395603,-0.17614471925133687,0.8005980484734023
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),ccc_core_vs_dwi_ml,13,17,0.08309769186362802,-0.0300890940780038,0.24568153319083397
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),dwi_core_covered_by_tmax6_median,13,17,0.617059891107078,0.5549692172383466,0.668364099299809
+s03_harmonised: protocol matrix256_dz5.0 | dedup_adjacency_keepA (primary),bland_altman_loa_ml,13,17,-15.366252300225767,-44.731353617915545,13.998849017464014
+as_distributed: all patients | dedup_adjacency_keepB,dice_mean,63,94,0.0027858331099460194,0.0017355012357446874,0.004051527040027961
+as_distributed: all patients | dedup_adjacency_keepB,dice_median,63,94,0.0006142883469500584,0.0,0.0016346546791990192
+as_distributed: all patients | dedup_adjacency_keepB,sensitivity_mean,63,94,0.001405639626567255,0.0008749232821286994,0.002045170427970448
+as_distributed: all patients | dedup_adjacency_keepB,precision_mean,63,94,0.35014897377931364,0.2619361199936179,0.43976449044485966
+as_distributed: all patients | dedup_adjacency_keepB,vol_bias_ml,63,94,-44.495435298162796,-57.190317803650075,-32.402513150604946
+as_distributed: all patients | dedup_adjacency_keepB,vol_abs_err_ml_median,63,94,23.966426773071294,16.690280873298647,40.144880204200746
+as_distributed: all patients | dedup_adjacency_keepB,spearman_core_vs_dwi,63,94,0.35227178582907337,0.08642511277300323,0.5771991372123738
+as_distributed: all patients | dedup_adjacency_keepB,ccc_core_vs_dwi_ml,63,94,0.0038758021350357823,0.0006481935386390634,0.00895905999714323
+as_distributed: all patients | dedup_adjacency_keepB,dwi_core_covered_by_tmax6_median,63,94,0.7655496485867943,0.7442922374429224,0.8069584736251403
+as_distributed: all patients | dedup_adjacency_keepB,bland_altman_loa_ml,63,94,-44.495435298162796,-145.3880667916913,56.397196195365716
+s03_harmonised: all patients | dedup_adjacency_keepB,dice_mean,63,94,0.20944201219154418,0.18014410093626407,0.23848097849778865
+s03_harmonised: all patients | dedup_adjacency_keepB,dice_median,63,94,0.2038315883270216,0.18324197337509787,0.2391122596336551
+s03_harmonised: all patients | dedup_adjacency_keepB,sensitivity_mean,63,94,0.15385334710422083,0.13052983704384719,0.17804662632279947
+s03_harmonised: all patients | dedup_adjacency_keepB,precision_mean,63,94,0.4586182894664657,0.3967739911751621,0.5168609253253279
+s03_harmonised: all patients | dedup_adjacency_keepB,vol_bias_ml,63,94,-31.591661110083262,-41.84711411385839,-21.871605894680634
+s03_harmonised: all patients | dedup_adjacency_keepB,vol_abs_err_ml_median,63,94,16.03917104768753,10.752029071807861,25.62520325660705
+s03_harmonised: all patients | dedup_adjacency_keepB,spearman_core_vs_dwi,63,94,0.6149193548387096,0.3959029735140633,0.7550296776170022
+s03_harmonised: all patients | dedup_adjacency_keepB,ccc_core_vs_dwi_ml,63,94,0.29557637709919926,0.20043184483192295,0.3730560375532776
+s03_harmonised: all patients | dedup_adjacency_keepB,dwi_core_covered_by_tmax6_median,63,94,0.6242317822651449,0.5746343923348461,0.6934040437520715
+s03_harmonised: all patients | dedup_adjacency_keepB,bland_altman_loa_ml,63,94,-31.591661110083262,-112.59670865801826,49.41338643785173
+as_distributed: all patients | dedup_strict_keepA,dice_mean,63,94,0.0028328991470008367,0.0017597927903199686,0.004115712787124798
+as_distributed: all patients | dedup_strict_keepA,dice_median,63,94,0.0006159531875577456,0.0,0.0015897146592754416
+as_distributed: all patients | dedup_strict_keepA,sensitivity_mean,63,94,0.001429594925864054,0.0008877487618055966,0.0020808366242314976
+as_distributed: all patients | dedup_strict_keepA,precision_mean,63,94,0.3409071015325347,0.2549531795008228,0.4286255251900966
+as_distributed: all patients | dedup_strict_keepA,vol_bias_ml,63,94,-46.27868321653396,-59.09747361936209,-34.176530662159884
+as_distributed: all patients | dedup_strict_keepA,vol_abs_err_ml_median,63,94,25.742913932800292,18.519583770751954,40.144880204200746
+as_distributed: all patients | dedup_strict_keepA,spearman_core_vs_dwi,63,94,0.41821499305551074,0.17213517836950362,0.6212177751350798
+as_distributed: all patients | dedup_strict_keepA,ccc_core_vs_dwi_ml,63,94,0.003890839287929929,0.0008677883753172524,0.008691712983002661
+as_distributed: all patients | dedup_strict_keepA,dwi_core_covered_by_tmax6_median,63,94,0.7841684744223589,0.7442922374429224,0.8023396530859217
+as_distributed: all patients | dedup_strict_keepA,bland_altman_loa_ml,63,94,-46.27868321653396,-147.3219326613399,54.764566228271974
+s03_harmonised: all patients | dedup_strict_keepA,dice_mean,63,94,0.20809248888161877,0.179959982846588,0.2367353970305712
+s03_harmonised: all patients | dedup_strict_keepA,dice_median,63,94,0.20501335170988028,0.1744186046511628,0.2391122596336551
+s03_harmonised: all patients | dedup_strict_keepA,sensitivity_mean,63,94,0.15294603702235382,0.13010675459895218,0.17630642623069898
+s03_harmonised: all patients | dedup_strict_keepA,precision_mean,63,94,0.4554224034222929,0.39312980483929816,0.5139093434049633
+s03_harmonised: all patients | dedup_strict_keepA,vol_bias_ml,63,94,-32.701252061170244,-42.88298621276164,-22.952113187655197
+s03_harmonised: all patients | dedup_strict_keepA,vol_abs_err_ml_median,63,94,18.42701681137085,10.906208576202395,25.63793969154358
+s03_harmonised: all patients | dedup_strict_keepA,spearman_core_vs_dwi,63,94,0.6381048387096775,0.4244499647615617,0.7700847530214133
+s03_harmonised: all patients | dedup_strict_keepA,ccc_core_vs_dwi_ml,63,94,0.28800813671268494,0.1965766314531355,0.3637929255247536
+s03_harmonised: all patients | dedup_strict_keepA,dwi_core_covered_by_tmax6_median,63,94,0.6277260063406668,0.5746343923348461,0.673094867807154
+s03_harmonised: all patients | dedup_strict_keepA,bland_altman_loa_ml,63,94,-32.701252061170244,-114.08035107475854,48.67784695241806

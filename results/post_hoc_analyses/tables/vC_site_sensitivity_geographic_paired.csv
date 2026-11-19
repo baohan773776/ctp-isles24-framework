@@ -1,0 +1,19 @@
+direction,new,reference,delta_auc,ci_lo,ci_hi,p_bootstrap,mapping
+Munich -> Zurich,F_late_P1_E,P1_clin_GBM,0.0714285714285714,-0.1842105263157895,0.372321428571428,0.68,canonical (S1 storage; 99/50 release)
+Munich -> Zurich,F_late_P1_Enat,P1_clin_GBM,0.10952380952380958,-0.1351351351351351,0.3986824324324323,0.439,canonical (S1 storage; 99/50 release)
+Munich -> Zurich,F_late_P1_V,P1_clin_GBM,0.019047619047619035,-0.18888888888888888,0.264754901960784,0.921,canonical (S1 storage; 99/50 release)
+Munich -> Zurich,F_late_R1_E,R1_clin_LR4,0.023809523809523836,-0.17952380952380956,0.25005252100840314,0.877,canonical (S1 storage; 99/50 release)
+Munich -> Zurich,R1_plus_volumes,R1_clin_LR4,0.033333333333333326,-0.04446969696969698,0.13640692640692617,0.494,canonical (S1 storage; 99/50 release)
+Munich -> Zurich,P1_clin_GBM,R1_clin_LR4,0.06190476190476191,-0.2941258169934641,0.40477799227799227,0.697,canonical (S1 storage; 99/50 release)
+Munich -> Zurich,F_late_P1_E,P1_clin_GBM,0.07428571428571429,-0.18429276315789475,0.41728571428571354,0.667,ambiguous -> ID block (100/49 release)
+Munich -> Zurich,F_late_P1_Enat,P1_clin_GBM,0.09142857142857141,-0.21154826254826253,0.47916666666666663,0.636,ambiguous -> ID block (100/49 release)
+Munich -> Zurich,F_late_P1_V,P1_clin_GBM,0.0685714285714285,-0.16666666666666663,0.41142857142857137,0.706,ambiguous -> ID block (100/49 release)
+Munich -> Zurich,F_late_R1_E,R1_clin_LR4,0.04571428571428571,-0.1538461538461538,0.28205128205128205,0.72,ambiguous -> ID block (100/49 release)
+Munich -> Zurich,R1_plus_volumes,R1_clin_LR4,0.017142857142857126,-0.022857142857142854,0.07894736842105265,0.718,ambiguous -> ID block (100/49 release)
+Munich -> Zurich,P1_clin_GBM,R1_clin_LR4,0.022857142857142854,-0.47222222222222227,0.5071180555555546,0.917,ambiguous -> ID block (100/49 release)
+Munich -> Zurich,F_late_P1_E,P1_clin_GBM,0.11428571428571427,-0.1982677530471648,0.5,0.547,ambiguous excluded
+Munich -> Zurich,F_late_P1_Enat,P1_clin_GBM,0.12000000000000005,-0.16677631578947374,0.5045045045045045,0.519,ambiguous excluded
+Munich -> Zurich,F_late_P1_V,P1_clin_GBM,0.057142857142857106,-0.19738916548127075,0.3657626050420166,0.713,ambiguous excluded
+Munich -> Zurich,F_late_R1_E,R1_clin_LR4,0.02857142857142858,-0.22372273589378852,0.31588084795321586,0.885,ambiguous excluded
+Munich -> Zurich,R1_plus_volumes,R1_clin_LR4,0.051428571428571435,-0.02702702702702703,0.17105263157894735,0.303,ambiguous excluded
+Munich -> Zurich,P1_clin_GBM,R1_clin_LR4,0.02857142857142858,-0.42111659356725156,0.44448529411764687,0.872,ambiguous excluded
